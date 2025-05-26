@@ -1,7 +1,5 @@
---[[
-  File: init.lua
-  Description: Entry point file for neovim
-]]
+-- Helpers
+require "helpers"
 
 -- Bootsraping plugin manager
 require "config/lazy"
@@ -10,6 +8,7 @@ require "config/lazy"
 require "config.material"
 require "config.lualine"
 require "config.dashboard"
+require "config.nvim-tree"
 
 -- Load Settings
 require "settings"
